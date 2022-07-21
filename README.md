@@ -40,3 +40,6 @@ npm install -g node-gyp
 ## Contributing
 
 As open source project, lofi-girl-cli welcome every help you can provide. [Here is a guide on how to submit changes.](CONTRIBUTING.md)
+
+### Acknowledgments
+This project was creating after the [zackradisic/lofi-cli](https://github.com/zackradisic/lofi-cli) project died. Inspired by the project we are working on building ever more features.
