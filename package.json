@@ -1,10 +1,10 @@
 {
   "name": "lofi-girl-cli",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A cli interface to the lofi girl on youtube",
   "main": "src/main.js",
   "scripts": {
-    "compile": "src/main.js"
+    "start": "src/main.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,18 @@
   "bugs": {
     "url": "https://github.com/mariogarridopt/lofi-girl-cli/issues"
   },
-  "homepage": "https://github.com/mariogarridopt/lofi-girl-cli#readme"
+  "homepage": "https://github.com/mariogarridopt/lofi-girl-cli#readme",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "fluent-ffmpeg": "^2.1.2",
+    "lame": "git+https://github.com/tomscytale/node-lame.git",
+    "pcm-volume": "^1.0.0",
+    "speaker": "^0.5.4",
+    "youtube-audio-stream": "^0.3.61",
+    "ytdl-core": "^4.11.0"
+  },
+  "bin": {
+    "lofi": "./src/main.js",
+    "lofi-setup": "./src/setup.sh"
+  }
 }
