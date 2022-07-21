@@ -1,5 +1,5 @@
 # lofi-girl-cli
-[![npm version](https://badge.fury.io/js/lofi-girl-cli.svg)](https://badge.fury.io/js/lofi-girl-cli)
+[![npm version](https://badge.fury.io/js/lofi-girl-cli.svg)](https://www.npmjs.com/package/lofi-girl-cli)
 
 A simple Command Line Interface(CLI) that plays the lofi girl chill music.
 The music stream comes from the official youtube channel.
