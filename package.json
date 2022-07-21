@@ -1,0 +1,26 @@
+{
+  "name": "lofi-girl-cli",
+  "version": "1.0.0",
+  "description": "A cli interface to the lofi girl on youtube",
+  "main": "src/main.js",
+  "scripts": {
+    "compile": "src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariogarridopt/lofi-girl-cli.git"
+  },
+  "keywords": [
+    "lofi",
+    "cli",
+    "youtube",
+    "music",
+    "radio"
+  ],
+  "author": "mariogarridopt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariogarridopt/lofi-girl-cli/issues"
+  },
+  "homepage": "https://github.com/mariogarridopt/lofi-girl-cli#readme"
+}
