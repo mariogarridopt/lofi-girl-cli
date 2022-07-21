@@ -1,6 +1,6 @@
 name: "🚀 publish"
 
-on
+on:
   push:
     branches:
       - master
