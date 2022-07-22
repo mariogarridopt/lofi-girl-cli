@@ -1,6 +1,6 @@
 lofi-girl-cli
 [![npm version](https://4.vercel.app/npm/version/lofi-girl-cli?color=4aa832)](https://www.npmjs.com/package/lofi-girl-cli)
-[![issues](https://4.vercel.app/github/issues/mariogarridopt/lofi-girl-cli)](https://github.com/mariogarridopt/lofi-girl-cli/issues)
+[![issues](https://img.shields.io/github/issues-raw/mariogarridopt/lofi-girl-cli)](https://github.com/mariogarridopt/lofi-girl-cli/issues)
 ![js](https://4.vercel.app/static/language/555/JavaScript/ffc107)
 ===
 
