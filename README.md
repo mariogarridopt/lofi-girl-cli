@@ -46,7 +46,9 @@ npm install -g node-gyp
 
 As open source project, lofi-girl-cli welcome every help you can provide. [Here is a guide on how to submit changes.](CONTRIBUTING.md)
 
-[![contributors](https://4.vercel.app/github/contributors/mariogarridopt/lofi-girl-cli?strokeopacity=0)](https://github.com/mariogarridopt/lofi-girl-cli/graphs/contributors)
+<a href="https://github.com/mariogarridopt/lofi-girl-cli/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=mariogarridopt/lofi-girl-cli" />
+</a>
 
 ### Acknowledgments
 This project was creating after the [zackradisic/lofi-cli](https://github.com/zackradisic/lofi-cli) project died. Inspired by the project we are working on building ever more features.
