@@ -1,5 +1,8 @@
-# lofi-girl-cli
-[![npm version](https://badge.fury.io/js/lofi-girl-cli.svg)](https://www.npmjs.com/package/lofi-girl-cli)
+lofi-girl-cli
+[![npm version](https://4.vercel.app/npm/version/lofi-girl-cli?color=4aa832)](https://www.npmjs.com/package/lofi-girl-cli)
+[![issues](https://4.vercel.app/github/issues/mariogarridopt/lofi-girl-cli)](https://github.com/mariogarridopt/lofi-girl-cli/issues)
+![js](https://4.vercel.app/static/language/555/JavaScript/ffc107)
+===
 
 A simple Command Line Interface(CLI) that plays the lofi girl chill music.
 The music stream comes from the official youtube channel.
@@ -28,6 +31,8 @@ To update:
 npm update -g lofi-girl-cli
 ```
 
+![npmjs](https://4.vercel.app/npm/package/lofi-girl-cli)
+
 ### Prerequisites
 * [ffmpeg](https://github.com/FFmpeg/FFmpeg) - for converting m4a audio files to mp3
 
@@ -40,6 +45,8 @@ npm install -g node-gyp
 ## Contributing
 
 As open source project, lofi-girl-cli welcome every help you can provide. [Here is a guide on how to submit changes.](CONTRIBUTING.md)
+
+[![contributors](https://4.vercel.app/github/contributors/mariogarridopt/lofi-girl-cli?strokeopacity=0)](https://github.com/mariogarridopt/lofi-girl-cli/graphs/contributors)
 
 ### Acknowledgments
 This project was creating after the [zackradisic/lofi-cli](https://github.com/zackradisic/lofi-cli) project died. Inspired by the project we are working on building ever more features.
