@@ -74,8 +74,7 @@ _prototype.createText = function () {
     return '\n\n'
         .concat(`{bold}Volume{/bold} [{#11A5AD-fg}{bold}${this.getVolumeBars(volume)}{/}]`)
         .concat(`\n{bold}Stream{/bold}: ${currentStream || 'L or R arrow to switch station'}`)
-        .concat(`\n[Press left/right to change the volume]`);
-        // TODO: .concat(`\n[Press up/down arrows to switch station]`);
+        .concat(`\n[Volume: left/right | Station: up/down]`);
 }
 
 _prototype.updateScreen = function() {
@@ -88,15 +87,17 @@ const onKeyPress = (Interface) => (ch, key) => {
         case keys.VOLUME_DOWN:
             Interface.lofiStream.volumeDown();
             Interface.updateScreen();
+            Interface.setLocalStorage('volume', Interface.lofiStream.getVolume());
+
             try{
-                Interface.setLocalStorage('volume', Interface.lofiStream.getVolume().toFixed(2));
+                Interface.setLocalStorage('volume', Interface.lofiStream.getVolume());
             }catch{}
             break;
         case keys.VOLUME_UP:
             Interface.lofiStream.volumeUp();
             Interface.updateScreen();
             try{
-                Interface.setLocalStorage('volume', Interface.lofiStream.getVolume().toFixed(2));
+                Interface.setLocalStorage('volume', Interface.lofiStream.getVolume());
             }catch{}
             break;
         case keys.NEXT_STREAM:
